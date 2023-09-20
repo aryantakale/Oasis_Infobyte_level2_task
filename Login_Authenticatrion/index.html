@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 style="background-image: linear-gradient(red,yellow);font-size: 60px;">Welcome</h1>
+    <div id="registerForm">
+        <h2>Register Here</h2>
+        <input type="text" id="registerUsername" placeholder="Username"><br><br>
+        <input type="password" id="registerPassword" placeholder="Password"><br><br>
+        <button id="regbtn" onclick="register()">Register</button>
+    </div><br><br>
+    <div id="loginForm">
+        <h2>Login Here</h2>
+        <input type="text" id="loginUsername" placeholder="Username"><br><br>
+        <input type="password" id="loginPassword" placeholder="Password"><br><br>
+        <button id="logbtn" onclick="login()">Login</button>
+    </div>
+    <div id="securedContent" style="display:none;">
+        <h1>Secured Page</h1>
+        <h2>Welcome to the secured page!</h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
